@@ -1,0 +1,256 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      '@davidsm100/stdio-rpc-server':
+        specifier: git+https://codeberg.org/DavidSM100/deltachat-js-stdio-rpc-server.git
+        version: git+https://codeberg.org/DavidSM100/deltachat-js-stdio-rpc-server.git#016c94978a395d8637ca87b6e8430d319efd19d4(@deltachat/jsonrpc-client@2.22.0(ws@8.18.3))
+      '@deltachat/jsonrpc-client':
+        specifier: ^2.22.0
+        version: 2.22.0(ws@8.18.3)
+      commander:
+        specifier: ^14.0.2
+        version: 14.0.2
+      env-paths:
+        specifier: ^3.0.0
+        version: 3.0.0
+    devDependencies:
+      '@types/node':
+        specifier: ^24.9.2
+        version: 24.9.2
+      dcbot-cli:
+        specifier: 'link:'
+        version: 'link:'
+      prettier:
+        specifier: ^3.6.2
+        version: 3.6.2
+      typescript:
+        specifier: ^5.9.3
+        version: 5.9.3
+
+packages:
+
+  '@davidsm100/stdio-rpc-server@git+https://codeberg.org/DavidSM100/deltachat-js-stdio-rpc-server.git#016c94978a395d8637ca87b6e8430d319efd19d4':
+    resolution: {commit: 016c94978a395d8637ca87b6e8430d319efd19d4, repo: https://codeberg.org/DavidSM100/deltachat-js-stdio-rpc-server.git, type: git}
+    version: 1.0.0
+    peerDependencies:
+      '@deltachat/jsonrpc-client': '*'
+
+  '@deltachat/jsonrpc-client@2.22.0':
+    resolution: {integrity: sha512-g6oQzNdrw64MDhUMZUIl5JO4Ot7ASVAhLtF4hTW9yUzJjDKLJ2+cqlRb0Y0XL8YL9XQ5nYOxHwgteWOkFRlTWA==}
+
+  '@deltachat/stdio-rpc-server-android-arm64@2.22.0':
+    resolution: {integrity: sha512-8NIUmIWYRBE1hHuO87BemaJmCDcrbpLhQks7sLzgh1ZPQ3nQUx+KVHcm/W6ijJ6ADALPFhHdlgtGiFWzwHiSFQ==}
+    cpu: [arm64]
+    os: [android]
+
+  '@deltachat/stdio-rpc-server-android-arm@2.22.0':
+    resolution: {integrity: sha512-NKtGQ2al+DT3tQlWh4lOPFOvMhWTzTQFr3p6obhFfajP/MQ3dPuodoiOL1OaYDIxmDyLQo83xJMWuUalSNlPsA==}
+    cpu: [arm]
+    os: [android]
+
+  '@deltachat/stdio-rpc-server-darwin-arm64@2.22.0':
+    resolution: {integrity: sha512-0EeIuBaVQCM6DhQL6UmhNOTvvAYDnwrdThJYpaf7IprYQNveyoZg8CB61253D76LXND39bdoCMYPk3s81lRTOA==}
+    cpu: [arm64]
+    os: [darwin]
+
+  '@deltachat/stdio-rpc-server-darwin-x64@2.22.0':
+    resolution: {integrity: sha512-mBnzH9XPXkjEk5/fOkDM98pNJf8XORIm7fGaZoKmy3518w5aK/ZLlKWBB3XxCzZ/O7gcJPlxLAwyKZGN3QpxaA==}
+    cpu: [x64]
+    os: [darwin]
+
+  '@deltachat/stdio-rpc-server-linux-arm64@2.22.0':
+    resolution: {integrity: sha512-LcNXkKxVwAy4KoA/wy+4hg6+8G5xHGEMuKSI5RWch6PIe/KwclTjuSD/UAH3d06m1lCKAp5yIpzCCtb0OJFcOA==}
+    cpu: [arm64]
+    os: [linux]
+
+  '@deltachat/stdio-rpc-server-linux-arm@2.22.0':
+    resolution: {integrity: sha512-0DWGenIkGo9Y0v+KASvi4dYLu75dot//3gPQqrg2S/xx/6Y8CrO2k2aW2wPaa9hJjF8XkZrfEU0pCXyQsYDFlA==}
+    cpu: [arm]
+    os: [linux]
+
+  '@deltachat/stdio-rpc-server-linux-ia32@2.22.0':
+    resolution: {integrity: sha512-hQQANgB4bIOUxF8c+tw5Az+7ZpPrgxxOqPtRJOMdDxcXNzhTVTvRa4HOvpSqTPfTfEmT9pZDKoLxzFnqVs7+9A==}
+    cpu: [ia32]
+    os: [linux]
+
+  '@deltachat/stdio-rpc-server-linux-x64@2.22.0':
+    resolution: {integrity: sha512-vxv0s3HhGooXYmYyWle5PBsjDR5KnJpne0pFW1wFsm2MRnJFllvxzqCKGfjnuGr+HClRiiNrGOpMZYLjnzQwFw==}
+    cpu: [x64]
+    os: [linux]
+
+  '@deltachat/stdio-rpc-server-win32-ia32@2.22.0':
+    resolution: {integrity: sha512-IdPIlIJbv1ZNiE1S6KexWwxZfTEqFz50X3RlcGsdxcqdHx7VDC3mtn+MYXFE15guRUEAkMkXD718qK7gjsytGg==}
+    cpu: [ia32]
+    os: [win32]
+
+  '@deltachat/stdio-rpc-server-win32-x64@2.22.0':
+    resolution: {integrity: sha512-nLI1D3dif/X6EX+iHhYGx5rXEenW9iylqg5CzwKa8T8D00GJmp6s7ORi9lNwjF+wxDdVo0OTZqoWxvvQMZueeQ==}
+    cpu: [x64]
+    os: [win32]
+
+  '@deltachat/tiny-emitter@3.0.0':
+    resolution: {integrity: sha512-iapvwGCEWFjXtObQ/vNzXS0+M9hrZrY2tMdV7SaX8kHXKVm3oIuJUVmUj5jhABTL7GstO6uKzV+36FUZVGOqCA==}
+
+  '@types/node@24.9.2':
+    resolution: {integrity: sha512-uWN8YqxXxqFMX2RqGOrumsKeti4LlmIMIyV0lgut4jx7KQBcBiW6vkDtIBvHnHIquwNfJhk8v2OtmO8zXWHfPA==}
+
+  '@types/ws@8.18.1':
+    resolution: {integrity: sha512-ThVF6DCVhA8kUGy+aazFQ4kXQ7E1Ty7A3ypFOe0IcJV8O/M511G99AW24irKrW56Wt44yG9+ij8FaqoBGkuBXg==}
+
+  commander@14.0.2:
+    resolution: {integrity: sha512-TywoWNNRbhoD0BXs1P3ZEScW8W5iKrnbithIl0YH+uCmBd0QpPOA8yc82DS3BIE5Ma6FnBVUsJ7wVUDz4dvOWQ==}
+    engines: {node: '>=20'}
+
+  env-paths@3.0.0:
+    resolution: {integrity: sha512-dtJUTepzMW3Lm/NPxRf3wP4642UWhjL2sQxc+ym2YMj1m/H2zDNQOlezafzkHwn6sMstjHTwG6iQQsctDW/b1A==}
+    engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
+
+  isomorphic-ws@4.0.1:
+    resolution: {integrity: sha512-BhBvN2MBpWTaSHdWRb/bwdZJ1WaehQ2L1KngkCkfLUGF0mAWAT1sQUQacEmQ0jXkFw/czDXPNQSL5u2/Krsz1w==}
+    peerDependencies:
+      ws: '*'
+
+  isomorphic-ws@5.0.0:
+    resolution: {integrity: sha512-muId7Zzn9ywDsyXgTIafTry2sV3nySZeUDe6YedVd1Hvuuep5AsIlqK+XefWpYTyJG5e503F2xIuT2lcU6rCSw==}
+    peerDependencies:
+      ws: '*'
+
+  prettier@3.6.2:
+    resolution: {integrity: sha512-I7AIg5boAr5R0FFtJ6rCfD+LFsWHp81dolrFD8S79U9tb8Az2nGrJncnMSnys+bpQJfRUzqs9hnA81OAA3hCuQ==}
+    engines: {node: '>=14'}
+    hasBin: true
+
+  typescript@4.9.5:
+    resolution: {integrity: sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
+
+  typescript@5.9.3:
+    resolution: {integrity: sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+
+  undici-types@7.16.0:
+    resolution: {integrity: sha512-Zz+aZWSj8LE6zoxD+xrjh4VfkIG8Ya6LvYkZqtUQGJPZjYl53ypCaUwWqo7eI0x66KBGeRo+mlBEkMSeSZ38Nw==}
+
+  ws@8.18.3:
+    resolution: {integrity: sha512-PEIGCY5tSlUt50cqyMXfCzX+oOPqN0vuGqWzbcJ2xvnkzkq46oOpz7dQaTDBdfICb4N14+GARUDw2XV2N4tvzg==}
+    engines: {node: '>=10.0.0'}
+    peerDependencies:
+      bufferutil: ^4.0.1
+      utf-8-validate: '>=5.0.2'
+    peerDependenciesMeta:
+      bufferutil:
+        optional: true
+      utf-8-validate:
+        optional: true
+
+  yerpc@0.6.4:
+    resolution: {integrity: sha512-f/yBGREg5sR9aa6QG0thon6uL8jKJhQuRO/SwGsnOIIe45wFQrMYBV+A5cCNEgqzSHsz+Jl2F7sEO6h7CJfr5w==}
+
+snapshots:
+
+  '@davidsm100/stdio-rpc-server@git+https://codeberg.org/DavidSM100/deltachat-js-stdio-rpc-server.git#016c94978a395d8637ca87b6e8430d319efd19d4(@deltachat/jsonrpc-client@2.22.0(ws@8.18.3))':
+    dependencies:
+      '@deltachat/jsonrpc-client': 2.22.0(ws@8.18.3)
+    optionalDependencies:
+      '@deltachat/stdio-rpc-server-android-arm': 2.22.0
+      '@deltachat/stdio-rpc-server-android-arm64': 2.22.0
+      '@deltachat/stdio-rpc-server-darwin-arm64': 2.22.0
+      '@deltachat/stdio-rpc-server-darwin-x64': 2.22.0
+      '@deltachat/stdio-rpc-server-linux-arm': 2.22.0
+      '@deltachat/stdio-rpc-server-linux-arm64': 2.22.0
+      '@deltachat/stdio-rpc-server-linux-ia32': 2.22.0
+      '@deltachat/stdio-rpc-server-linux-x64': 2.22.0
+      '@deltachat/stdio-rpc-server-win32-ia32': 2.22.0
+      '@deltachat/stdio-rpc-server-win32-x64': 2.22.0
+
+  '@deltachat/jsonrpc-client@2.22.0(ws@8.18.3)':
+    dependencies:
+      '@deltachat/tiny-emitter': 3.0.0
+      isomorphic-ws: 5.0.0(ws@8.18.3)
+      yerpc: 0.6.4
+    transitivePeerDependencies:
+      - bufferutil
+      - utf-8-validate
+      - ws
+
+  '@deltachat/stdio-rpc-server-android-arm64@2.22.0':
+    optional: true
+
+  '@deltachat/stdio-rpc-server-android-arm@2.22.0':
+    optional: true
+
+  '@deltachat/stdio-rpc-server-darwin-arm64@2.22.0':
+    optional: true
+
+  '@deltachat/stdio-rpc-server-darwin-x64@2.22.0':
+    optional: true
+
+  '@deltachat/stdio-rpc-server-linux-arm64@2.22.0':
+    optional: true
+
+  '@deltachat/stdio-rpc-server-linux-arm@2.22.0':
+    optional: true
+
+  '@deltachat/stdio-rpc-server-linux-ia32@2.22.0':
+    optional: true
+
+  '@deltachat/stdio-rpc-server-linux-x64@2.22.0':
+    optional: true
+
+  '@deltachat/stdio-rpc-server-win32-ia32@2.22.0':
+    optional: true
+
+  '@deltachat/stdio-rpc-server-win32-x64@2.22.0':
+    optional: true
+
+  '@deltachat/tiny-emitter@3.0.0': {}
+
+  '@types/node@24.9.2':
+    dependencies:
+      undici-types: 7.16.0
+
+  '@types/ws@8.18.1':
+    dependencies:
+      '@types/node': 24.9.2
+
+  commander@14.0.2: {}
+
+  env-paths@3.0.0: {}
+
+  isomorphic-ws@4.0.1(ws@8.18.3):
+    dependencies:
+      ws: 8.18.3
+
+  isomorphic-ws@5.0.0(ws@8.18.3):
+    dependencies:
+      ws: 8.18.3
+
+  prettier@3.6.2: {}
+
+  typescript@4.9.5: {}
+
+  typescript@5.9.3: {}
+
+  undici-types@7.16.0: {}
+
+  ws@8.18.3: {}
+
+  yerpc@0.6.4:
+    dependencies:
+      '@types/ws': 8.18.1
+      isomorphic-ws: 4.0.1(ws@8.18.3)
+      typescript: 4.9.5
+    optionalDependencies:
+      ws: 8.18.3
+    transitivePeerDependencies:
+      - bufferutil
+      - utf-8-validate

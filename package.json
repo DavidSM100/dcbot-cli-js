@@ -1,0 +1,38 @@
+{
+  "name": "dcbot-cli",
+  "version": "0.1.0",
+  "description": "Library to make easier DeltaChat Bot development",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "format": "prettier --write **.{ts,js,json}",
+    "format-check": "prettier --check **.{ts,js,json}"
+  },
+  "keywords": [
+    "deltachat",
+    "email",
+    "bot",
+    "cli"
+  ],
+  "dependencies": {
+    "@davidsm100/stdio-rpc-server": "git+https://codeberg.org/DavidSM100/deltachat-js-stdio-rpc-server.git",
+    "@deltachat/jsonrpc-client": "^2.22.0",
+    "commander": "^14.0.2",
+    "env-paths": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.9.2",
+    "dcbot-cli": "link:",
+    "prettier": "^3.6.2",
+    "typescript": "^5.9.3"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  }
+}
