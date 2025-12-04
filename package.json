@@ -1,6 +1,6 @@
 {
   "name": "dcbot-cli",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Library to make easier DeltaChat Bot development",
   "type": "module",
   "main": "./dist/index.js",

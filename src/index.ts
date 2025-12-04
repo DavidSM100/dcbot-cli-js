@@ -130,6 +130,37 @@ export default class BotCli extends DeltaChatOverJsonRpcServer {
   }
 }
 
+/**
+ *
+ * @param command the command that the text should have
+ * @param text the text from the message
+ */
+export function hasCommand(command: string, text: string) {
+  if (!command || !text) return false;
+  if (text.trim().toLowerCase().startsWith(command.trim().toLowerCase())) {
+    return true;
+  }
+
+  return false;
+}
+
+/**
+ *
+ * @param command the command that the text should have
+ * @param text the text from the message
+ * @returns the rest of the message (excluding the command) or `null` if there is not rest
+ */
+export function getCommandPayload(command: string, text: string) {
+  if (!hasCommand(command, text)) return null;
+
+  const payload = text.trim().slice(command.trim().length).trimStart();
+  if (payload) {
+    return payload;
+  }
+
+  return null;
+}
+
 async function init(bot: BotCli, opts: OptionValues, args: any[]) {
   const addr: string = args[0];
   const password: string | undefined = args[1];
