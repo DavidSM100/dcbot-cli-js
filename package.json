@@ -5,7 +5,10 @@
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "files": ["dist", "examples"],
+  "files": [
+    "dist",
+    "examples"
+  ],
   "scripts": {
     "build": "tsc",
     "dev": "tsc --watch",
@@ -18,6 +21,16 @@
     "bot",
     "cli"
   ],
+  "author": {
+    "name": "DavidSM100",
+    "email": "davidsm@systemli.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DavidSM100/dcbot-cli-js.git"
+  },
+  "license": "MPL-2.0",
+  "homepage": "https://github.com/DavidSM100/dcbot-cli-js",
   "dependencies": {
     "@davidsm100/stdio-rpc-server": "git+https://codeberg.org/DavidSM100/deltachat-js-stdio-rpc-server.git",
     "@deltachat/jsonrpc-client": "^2.22.0",
