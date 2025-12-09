@@ -1,11 +1,19 @@
 # dcbot-cli-js
 
-Javascript library to make easier [DeltaChat](https://delta.chat) [Bot](https://bots.delta.chat) development.
+Javascript (nodejs/[deno](https://deno.com/)) library to make easier [DeltaChat](https://delta.chat) [Bot](https://bots.delta.chat) development.
 
 ## Install
 
+### nodejs
+
 ```sh
 pnpm install dcbot-cli
+```
+
+### deno
+
+```sh
+deno add npm:dcbot-cli
 ```
 
 ## Usage
