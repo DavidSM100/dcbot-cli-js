@@ -1,7 +1,7 @@
 import envPaths from "env-paths";
 import path from "path";
 import { Command } from "commander";
-import { DeltaChatOverJsonRpcServer } from "@davidsm100/stdio-rpc-server";
+import { DeltaChatOverJsonRpcServer } from "@davidsm/stdio-rpc-server";
 import type { OptionValues } from "commander";
 
 type CdmData = [

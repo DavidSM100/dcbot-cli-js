@@ -8,9 +8,9 @@ importers:
 
   .:
     dependencies:
-      '@davidsm100/stdio-rpc-server':
-        specifier: git+https://codeberg.org/DavidSM100/deltachat-js-stdio-rpc-server.git
-        version: git+https://codeberg.org/DavidSM100/deltachat-js-stdio-rpc-server.git#016c94978a395d8637ca87b6e8430d319efd19d4(@deltachat/jsonrpc-client@2.22.0(ws@8.18.3))
+      '@davidsm/stdio-rpc-server':
+        specifier: ^1.0.0
+        version: 1.0.0(@deltachat/jsonrpc-client@2.22.0(ws@8.18.3))
       '@deltachat/jsonrpc-client':
         specifier: ^2.22.0
         version: 2.22.0(ws@8.18.3)
@@ -36,9 +36,8 @@ importers:
 
 packages:
 
-  '@davidsm100/stdio-rpc-server@git+https://codeberg.org/DavidSM100/deltachat-js-stdio-rpc-server.git#016c94978a395d8637ca87b6e8430d319efd19d4':
-    resolution: {commit: 016c94978a395d8637ca87b6e8430d319efd19d4, repo: https://codeberg.org/DavidSM100/deltachat-js-stdio-rpc-server.git, type: git}
-    version: 1.0.0
+  '@davidsm/stdio-rpc-server@1.0.0':
+    resolution: {integrity: sha512-xrNV7aIB3CewcJ40n9QjwvO9/63qeuqiyn9TH+X6G00xCdhdY77UdSOZ+6gb0R/VQ5D+9kQLQ0LWHCWBTYy33A==}
     peerDependencies:
       '@deltachat/jsonrpc-client': '*'
 
@@ -157,7 +156,7 @@ packages:
 
 snapshots:
 
-  '@davidsm100/stdio-rpc-server@git+https://codeberg.org/DavidSM100/deltachat-js-stdio-rpc-server.git#016c94978a395d8637ca87b6e8430d319efd19d4(@deltachat/jsonrpc-client@2.22.0(ws@8.18.3))':
+  '@davidsm/stdio-rpc-server@1.0.0(@deltachat/jsonrpc-client@2.22.0(ws@8.18.3))':
     dependencies:
       '@deltachat/jsonrpc-client': 2.22.0(ws@8.18.3)
     optionalDependencies:

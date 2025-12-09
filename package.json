@@ -1,6 +1,6 @@
 {
   "name": "dcbot-cli",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Library to make easier DeltaChat Bot development",
   "type": "module",
   "main": "./dist/index.js",
@@ -32,7 +32,7 @@
   "license": "MPL-2.0",
   "homepage": "https://github.com/DavidSM100/dcbot-cli-js",
   "dependencies": {
-    "@davidsm100/stdio-rpc-server": "git+https://codeberg.org/DavidSM100/deltachat-js-stdio-rpc-server.git",
+    "@davidsm/stdio-rpc-server": "^1.0.0",
     "@deltachat/jsonrpc-client": "^2.22.0",
     "commander": "^14.0.2",
     "env-paths": "^3.0.0"
