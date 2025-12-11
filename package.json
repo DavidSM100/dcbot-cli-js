@@ -33,7 +33,7 @@
   "homepage": "https://github.com/DavidSM100/dcbot-cli-js",
   "dependencies": {
     "@davidsm/stdio-rpc-server": "^1.0.0",
-    "@deltachat/jsonrpc-client": "^2.22.0",
+    "@deltachat/jsonrpc-client": "*",
     "commander": "^14.0.2",
     "env-paths": "^3.0.0"
   },
